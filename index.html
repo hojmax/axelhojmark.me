@@ -7,18 +7,23 @@
 <meta name="description" content="Axel Højmark — Research Scientist at Apollo Research working on AI safety, studying ways to detect and mitigate deception in frontier models." />
 
 <meta property="og:type" content="website" />
+<meta property="og:site_name" content="Axel Højmark" />
 <meta property="og:title" content="Axel Højmark" />
 <meta property="og:description" content="Research Scientist at Apollo Research working on AI safety — studying ways to detect and mitigate deception in frontier models." />
-<meta property="og:url" content="https://axelhojmark.com" />
+<meta property="og:url" content="https://axelhojmark.com/" />
 <meta property="og:image" content="https://axelhojmark.com/headshot.jpg" />
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="600" />
 <meta property="og:image:alt" content="Axel Højmark — AI Safety @ Apollo Research" />
 
-<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Axel Højmark" />
 <meta name="twitter:description" content="Research Scientist at Apollo Research working on AI safety — studying ways to detect and mitigate deception in frontier models." />
 <meta name="twitter:image" content="https://axelhojmark.com/headshot.jpg" />
+<meta name="twitter:image:alt" content="Axel Højmark — AI Safety @ Apollo Research" />
+
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)" />
 
 <link rel="canonical" href="https://axelhojmark.com/" />
 <link rel="icon" type="image/jpeg" href="headshot.jpg" />
@@ -31,7 +36,7 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Axel Højmark",
-  "url": "https://axelhojmark.com",
+  "url": "https://axelhojmark.com/",
   "image": "https://axelhojmark.com/headshot.jpg",
   "jobTitle": "Research Scientist",
   "worksFor": { "@type": "Organization", "name": "Apollo Research", "url": "https://www.apolloresearch.ai" },
@@ -98,6 +103,11 @@
     transition: color 0.15s ease;
   }
   a:hover { color: var(--accent-hover); text-decoration: underline; }
+  a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
 
   main {
     max-width: 720px;
